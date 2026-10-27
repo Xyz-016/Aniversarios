@@ -219,7 +219,7 @@
       if (savedPhoto) {
         photo.src = savedPhoto;
         placeholder.hidden = true;
-        choosePhoto.textContent = "Cambiar foto ✎";
+        choosePhoto.hidden = true;
       } else {
         photo.hidden = true;
         choosePhoto.textContent = "Elegir foto ✿";
